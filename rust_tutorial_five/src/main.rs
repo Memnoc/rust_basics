@@ -1,13 +1,7 @@
 // if and else statements
 #![allow(unused)]
 
-// use rand::Rng;
-use std::cmp::Ordering;
-use std::f64::consts::PI;
-use std::fs::File;
 use std::io;
-use std::io::{BufRead, BufReader, ErrorKind, Write};
-use std::ops::RangeBounds;
 
 // instead of (age >=1) && (age <= 18)
 // do (1..=18).contains(age) since the range is inclusive
